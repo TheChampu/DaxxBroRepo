@@ -1,60 +1,65 @@
 {
-    "name": "𝙳𝙰𝚇𝚇 𝙼𝚄𝚂𝙸𝙲",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/dbb3222d0fd3712e2a0e4.jpg",
-    "keywords": [
-    "python3",
-    "telegram",
-    "bot",
-    "DAXX",
-    "MusicBot",
-    "telegram-bot",
-    "pyrogram"
-    ],
+  "name": "ᴄʜᴧᴍᴘᴜ ꭙ ᴍᴜsɪᴄ",
+  "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs.",
+  "logo": "https://telegra.ph/file/43b46c02ace4d9b83c96f.jpg",
+  "keywords": [
+  "python3",
+  "telegram",
+  "bot",
+  "Champu",
+  "MusicBot",
+  "telegram-bot",
+  "pyrogram"
+  ],
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "20817866",
+        "description": "ɢᴇᴛ ᴀᴘɪ ɪᴅ ғʀᴏᴍ https://my.telegram.org",
+        "value": "29287372",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "e4cd9f51ff9fb12a022556fc2b99b0e4",
+        "description": "ɢᴇᴛ ᴀᴘɪ ʜᴀsʜ ғʀᴏᴍ https://my.telegram.org",
+        "value": "b6bc2e38437888bccf9591135d670d05",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "ɢᴇᴛ ʙᴏᴛ's ᴛᴏᴋᴇɴ ғʀᴏᴍ ʙᴏᴛғᴀᴛʜᴇʀ",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://Starboy2004:Starboy2004@cluster0.7w3eadf.mongodb.net/?retryWrites=true&w=majority",
+        "description": "ɢᴇᴛ ᴀ ᴍᴏɴɢᴏᴅʙ ᴜʀʟ ғʀᴏᴍ https://cloud.mongodb.com.",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
-        "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "6899244704",
+        "description": "ᴛʜᴇ ᴜsᴇʀ ɪᴅ ᴏғ ᴜsᴇʀ ᴡʜᴏᴍ ʏᴏᴜ ᴡᴏᴜʟᴅ ʟɪᴋᴇ ᴛᴏ ᴀᴅᴅ ᴀs ᴏᴡɴᴇʀ..",
+        "value": "6399386263",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @STRINGSEASO_NBOT on Telegram.",
-        "value": "BQE9p8oAugx9hTqqm7JFC5Pn4TiFv9Y253n_SgxxP8KVlV7oXV4MvL-3jcznH_UBE4zDQcGUXk5wOGKrFLJHvna_OVJgCYV4zry6MRyI6u2C-FX-USuY7cRIhNf0Vwvff-BYeQGgvNg7a2lB8g97bOys5u-QuJcLQ3uZzxAjNXVlOXpIOtFZwkUGG1jFoRieBH_UGdIj41_uOYS0eofgdoI38vD6LmY_MUs_PZ-tCnFWh84HbsFpIM_2_N-FoI5avQ5GolW9DBdS1Bevcj9fIYnIhS9bCCkjavRH7rHpzEOj_B5NZvWZ5eBxwzJPRydVkuOXakziw6nunozjxxYpMb_NBPoQPgAAAAE5JZhwAA",
+        "description": "ᴀ ᴘʏʀᴏɢʀᴀᴍ ᴠ𝟸 sᴛʀɪɴɢ sᴇssɪᴏɴ ғʀᴏᴍ @ChampuStringBot ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ. ",
+        "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
+        "description": "ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴄᴄᴏᴜɴᴛ's ᴀᴘɪ ᴋᴇʏ",
         "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "Your heroku app name",
+        "description": "ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴘᴘ ɴᴀᴍᴇ.",
         "value": "",
         "required": false
       },
-      "LOGGER_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "-1002111155780",
+      "LOG_GROUP_ID": {
+        "description": "ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ ɪᴅ, ᴀᴅᴅ ʏᴏᴜʀ ʙᴏᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ᴡɪᴛʜ ғᴜʟʟ ʀɪɢʜᴛs!.",
+        "value": "",
+        "required": true
+      },
+        "UPSTREAM_BRANCH": {
+        "description": "ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ ɪᴅ, ᴀᴅᴅ ʏᴏᴜʀ ʙᴏᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ᴡɪᴛʜ ғᴜʟʟ ʀɪɢʜᴛs!.",
+        "value": "main",
         "required": true
       }
     },
@@ -69,5 +74,11 @@
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "basic"
+          }
+      },
       "stack": "container"
   }
