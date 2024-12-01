@@ -31,6 +31,5 @@ def private_panel(_):
         [
             InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper"),
         ],
-        [ InlineKeyboardButton(text="📱Mᴏᴠɪᴇs+Sᴇʀɪᴇs+Aɴɪᴍᴇ 🎬", url=f"https://t.me/okflix_ottbot?start=start")],
     ]
     return buttons
