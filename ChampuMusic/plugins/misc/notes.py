@@ -1,7 +1,7 @@
 from ChampuMusic import app
 from config import BOT_USERNAME
 from pyrogram import filters
-from ChampuMusic.utils.Champu_ban import admin_filter
+from ChampuMusic.utils.champu_ban import admin_filter
 from ChampuMusic.mongo.notesdb import *
 from ChampuMusic.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
 from ChampuMusic.utils.yumidb import user_admin

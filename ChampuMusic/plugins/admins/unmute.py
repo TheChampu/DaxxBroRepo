@@ -1,7 +1,7 @@
 from ChampuMusic import app
 from pyrogram import filters,enums
 from pyrogram.types import ChatPermissions 
-from ChampuMusic.utils.Champu_ban import admin_filter
+from ChampuMusic.utils.champu_ban import admin_filter
 
 @app.on_message(filters.command("unmuteall") & admin_filter)
 async def unmute_all(_,msg):

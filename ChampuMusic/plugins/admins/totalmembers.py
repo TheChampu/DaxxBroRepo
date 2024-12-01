@@ -1,4 +1,4 @@
-from ChampuMusic.utils.Champu_ban import admin_filter
+from ChampuMusic.utils.champu_ban import admin_filter
 import os
 import csv
 from pyrogram import Client, filters

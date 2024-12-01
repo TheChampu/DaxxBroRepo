@@ -4,7 +4,7 @@ from pyrogram import filters, Client
 from ChampuMusic import app
 from config import OWNER_ID
 from pyrogram.types import Message
-from ChampuMusic.utils.Champu_ban import admin_filter
+from ChampuMusic.utils.champu_ban import admin_filter
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 
 

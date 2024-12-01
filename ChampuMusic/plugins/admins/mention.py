@@ -2,7 +2,7 @@ import asyncio
 from pyrogram.enums import ChatType, ChatMemberStatus
 from ChampuMusic import app
 from pyrogram import filters
-from ChampuMusic.utils.Champu_ban import admin_filter
+from ChampuMusic.utils.champu_ban import admin_filter
 
 
 

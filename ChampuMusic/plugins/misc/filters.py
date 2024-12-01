@@ -1,7 +1,7 @@
 import re
 from ChampuMusic import app
 from config import BOT_USERNAME
-from ChampuMusic.utils.Champu_ban import admin_filter
+from ChampuMusic.utils.champu_ban import admin_filter
 from ChampuMusic.mongo.filtersdb import *
 from ChampuMusic.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
 from ChampuMusic.utils.yumidb import user_admin

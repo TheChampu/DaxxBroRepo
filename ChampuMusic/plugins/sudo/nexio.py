@@ -4,7 +4,7 @@ from ChampuMusic import app, userbot
 from ChampuMusic.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from ChampuMusic.utils.Champu_ban import admin_filter
+from ChampuMusic.utils.champu_ban import admin_filter
 
 
 
