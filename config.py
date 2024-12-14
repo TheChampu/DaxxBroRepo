@@ -55,11 +55,11 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheChampu/DaxxOld",
+    "https://github.com/TheChampu/DaxxBroRepo",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Main")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", "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"
+    "GIT_TOKEN", None
 )  # ----------------------------------------------------------------
 # -------------------------------------------------------------------
 # --------------------------------------------------------------------
